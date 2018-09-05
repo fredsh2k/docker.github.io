@@ -142,9 +142,10 @@ the error message.
 > **Note**: Accessing the name of the host when inside a container retrieves the
 container ID, which is like the process ID for a running executable.
 
-That's it! You don't need Python or anything in `requirements.txt` on your
-system, nor does building or running this image install them on your system. It
-doesn't seem like you've really set up an environment with Python and Flask, but
+That's it! 
+You don't need Python or anything in `requirements.txt` on your
+system. 
+Also, building or running this image doesn't install anything on you system. It doesn't seem like you've really set up an environment with Python and Flask, but
 you have.
 
 ## Build the app
